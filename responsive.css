@@ -1,0 +1,124 @@
+
+@media (max-width:1366px) {
+    
+    .top-menu ul li a {
+        padding: 10px 10px;
+        color: #111;
+        font-size: 14px;
+
+    }
+
+}
+
+.menu-bar{
+    background: #e83b3e !important;
+}
+.menu-icon{
+    color: #fff !important;
+}
+@media (max-width:1200px){
+    .top-menu ul li:hover ul {
+        top: 15%;
+    }
+    .top-menu ul li {
+        width: 100px;
+    }
+    .top-menu ul li ul {
+ 
+  
+        left: 90px;
+        z-index: 9;
+    }
+    .top-menu ul li ul li {
+        width: 100%;
+    }
+    .banners h1 {
+        font-size: 40px;
+        margin: 20px 0;
+    }
+    .click-tabs li a.active::after {
+        display: none;
+        }
+        .call-number a {
+            font-size: 30px;
+        }
+        
+}
+@media (max-width:996px){
+    .about-img-text {
+  
+        right: 170px;
+      
+    }
+    .about-img {
+        text-align: center;
+    }
+    .call-number a {
+        font-size: 22px;
+    }
+    .call-caption h1 {
+        font-size: 22px;
+    }
+    .call-caption {
+        border-right: none;
+    }
+    .services-img {text-align: center; margin-bottom: 30px;}
+    .services-img img {
+        width: auto !important;
+       
+    }
+}
+
+
+
+
+
+@media (max-width:576px){
+    .banners h1 {
+      max-width: 100%;
+        font-size: 24px;
+    }
+    .banner-capion{
+        width: 40%;
+    }
+    .banner p {
+        font-size: 15px;
+    }
+.mb-xs{
+    margin-bottom: 30px;
+}
+.btn-primary {
+	padding: 10px 25px;
+	border: none !important;
+	background: #e83b3e !important;
+	transition: .5s;
+	z-index: 1;
+	position: relative;
+	border-radius: 5px;
+}
+.click-tabs li a.active::after {
+display: none;
+}
+
+.text-xs-center{
+    text-align: center;
+}
+
+.subforms-caption h1 {
+	font-size: 26px;
+}
+.company-valu-text h2 {
+	font-size: 26px;
+
+}
+.w-xs{
+max-width: 50%;
+}
+
+}
+
+@media (max-width:420px){
+    .w-xs{
+        max-width: 100%;
+        }
+}
